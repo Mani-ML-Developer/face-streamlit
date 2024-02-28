@@ -1,9 +1,11 @@
- dependencies:
-     - python
-     - pip
-     - dlib
-     - pandas
-     - numpy
-     - face_recognition
-     - opencv-python
-     - conda-forge
+name: my_environment
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - face_recognition
+  - opencv-python
+  - dlib
+  # Add any other dependencies your project needs
