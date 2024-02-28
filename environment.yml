@@ -1,10 +1,11 @@
- name: attendance
- channels:
-     - conda-forge
  dependencies:
+     - python
+     - pip
      - dlib
      - pandas
      - numpy
      - face_recognition
-     - pip:
-       - opencv-python
+     - opencv-python
+ name: attendance
+ channels:
+     - conda-forge
