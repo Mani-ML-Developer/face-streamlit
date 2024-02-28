@@ -6,6 +6,4 @@
      - numpy
      - face_recognition
      - opencv-python
- name: attendance
- channels:
      - conda-forge
