@@ -9,3 +9,5 @@ dependencies:
   - opencv-python
   - dlib
   # Add any other dependencies your project needs
+
+conda env update -f environment.yml
